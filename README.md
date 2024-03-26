@@ -9,7 +9,9 @@ Kalibrium is the reference full node Kalibrium implementation written in Go (gol
 
 ## What is Kalibrium
 
-Kalibrium is an attempt at a proof-of-work cryptocurrency with instant confirmations and sub-second block times. It is based on [the PHANTOM protocol](https://eprint.iacr.org/2018/104.pdf), a generalization of Nakamoto consensus.
+Kalibrium represents a groundbreaking advancement in the realm of cryptocurrency, aiming to redefine transaction speeds and costs. Built upon the PHANTOM protocol—a sophisticated evolution of Nakamoto consensus—Kalibrium introduces near-instantaneous confirmations and unparalleled block times of merely one second. 
+
+
 
 ## Requirements
 
