@@ -11,7 +11,7 @@ Kalibrium is the reference full node Kalibrium implementation written in Go (gol
 
 Kalibrium represents a groundbreaking advancement in the realm of cryptocurrency, aiming to redefine transaction speeds and costs. Built upon the PHANTOM protocol—a sophisticated evolution of Nakamoto consensus—Kalibrium introduces near-instantaneous confirmations and unparalleled block times of merely one second. 
 
-
+Kalibrium is evolving with the upcoming integration of smart contracts and support for Web3 technologies. This development is a step towards enhancing the platform's capabilities, allowing for more complex and programmable transactions. It's about laying the groundwork for a more interactive and automated blockchain ecosystem, where users can engage with decentralized applications and services directly on the Kalibrium network. This update is part of our commitment to advancing blockchain functionality, providing our community with the tools they need to explore new possibilities in a decentralized world.
 
 ## Requirements
 
