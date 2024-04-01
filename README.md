@@ -33,8 +33,8 @@ $ go version
 - Run the following commands to obtain and install Kalibrium including all dependencies:
 
 ```bash
-$ git clone https://github.com/kalibriumnet/Kalibrium
-$ cd Kalibrium
+$ git clone https://github.com/kalibriumnet/kalibrium
+$ cd kalibrium
 $ go install . ./cmd/...
 ```
 
