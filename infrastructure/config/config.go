@@ -51,7 +51,7 @@ const (
 	//DefaultMaxOrphanTxSize is the default maximum size for an orphan transaction
 	DefaultMaxOrphanTxSize  = 100_000
 	defaultSigCacheMaxSize  = 100_000
-	sampleConfigFilename    = "sample-Kalibrium.conf"
+	sampleConfigFilename    = "sample-kalibrium.conf"
 	defaultMaxUTXOCacheSize = 5_000_000_000
 	defaultProtocolVersion  = 5
 )
@@ -66,7 +66,7 @@ var (
 	defaultRPCCertFile = filepath.Join(DefaultAppDir, "rpc.cert")
 )
 
-//go:embed sample-Kalibrium.conf
+//go:embed sample-kalibrium.conf
 var sampleConfig string
 
 // RunServiceCommand is only set to a real function on Windows. It is used
@@ -575,7 +575,7 @@ func LoadConfig() (*Config, error) {
 	return cfg, nil
 }
 
-// createDefaultConfig copies the file sample-Kalibrium.conf to the given destination path,
+// createDefaultConfig copies the file sample-kalibrium.conf to the given destination path,
 // and populates it with some randomly generated RPC username and password.
 func createDefaultConfigFile(destinationPath string) error {
 	// Create the destination directory if it does not exists
