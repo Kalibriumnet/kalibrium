@@ -3,7 +3,7 @@ Kalibrium
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kalibriumnet/Kalibrium)
+
 
 Kalibrium is the reference full node Kalibrium implementation written in Go (golang).
 
