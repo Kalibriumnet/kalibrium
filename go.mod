@@ -1,4 +1,4 @@
-module github.com/kalibriumnet/Kalibrium
+module github.com/kalibriumnet/kalibrium
 
 go 1.18
 
