@@ -60,7 +60,7 @@ github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJS
 github.com/jrick/logrotate v1.0.0 h1:lQ1bL/n9mBNeIXoTUoYRlK4dHuNJVofX9oWqBtPnSzI=
 github.com/jrick/logrotate v1.0.0/go.mod h1:LNinyqDIJnpAur+b8yyulnQw/wDuN1+BYKlTRt3OuAQ=
 github.com/kalibriumnet/go-muhash v0.0.4 h1:A7Cl4oa/fZY3NIoWXHWw+QIQZqka4/PVYxO7vRdO6GI=
-github.com/kalibriumnet/go-muhash v0.0.4/go.mod h1:A7Cl4oa/fZY3NIoWXHWw+QIQZqka4/PVYxO7vRdO6GI=
+github.com/kalibriumnet/go-muhash v0.0.4/go.mod h1:UgLnIiGy3ued0DgH0fvgcaB6/cIAMHb92WyPQFu1eYg=
 github.com/kalibriumnet/go-secp256k1 v0.0.7 h1:6rzDtraw75aWJV8Xl+R7UAOHULjFb+BeOVDpgnYift4=
 github.com/kalibriumnet/go-secp256k1 v0.0.7/go.mod h1:0ZoBx569YWIh2I4Ot/WBHkiSX+slez2cyRIt6MpkDd0=
 github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23/go.mod h1:J+Gs4SYgM6CZQHDETBtE9HaSEkGmuNXF86RwHhHUvq4=
