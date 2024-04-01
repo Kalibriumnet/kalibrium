@@ -1,8 +1,8 @@
 package addressmanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 	"net"
 	"reflect"
 	"testing"

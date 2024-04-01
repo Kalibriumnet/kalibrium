@@ -3,7 +3,7 @@ package serialization
 import (
 	"math"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

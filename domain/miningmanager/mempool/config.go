@@ -3,11 +3,11 @@ package mempool
 import (
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 )
 
 const (

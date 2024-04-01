@@ -3,7 +3,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 )
 
 // Config is a descriptor which specifies the AddressManager instance configuration.

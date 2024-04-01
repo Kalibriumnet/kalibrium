@@ -1,7 +1,7 @@
 package hashes
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // ToStrings converts a slice of hashes into a slice of the corresponding strings

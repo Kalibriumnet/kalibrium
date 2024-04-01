@@ -5,15 +5,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/miningmanager"
-	"github.com/Kalibriumnet/Kalibrium/domain/miningmanager/mempool"
-	"github.com/Kalibriumnet/Kalibrium/domain/prefixmanager"
-	"github.com/Kalibriumnet/Kalibrium/domain/prefixmanager/prefix"
-	infrastructuredatabase "github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/miningmanager"
+	"github.com/kalibriumnet/kalibrium/domain/miningmanager/mempool"
+	"github.com/kalibriumnet/kalibrium/domain/prefixmanager"
+	"github.com/kalibriumnet/kalibrium/domain/prefixmanager/prefix"
+	infrastructuredatabase "github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

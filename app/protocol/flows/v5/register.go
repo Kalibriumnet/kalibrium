@@ -1,16 +1,16 @@
 package v5
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flowcontext"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/addressexchange"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/blockrelay"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/ping"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/rejects"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/transactionrelay"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flowcontext"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/addressexchange"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/blockrelay"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/ping"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/rejects"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/transactionrelay"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 type protocolManager interface {

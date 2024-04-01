@@ -1,16 +1,16 @@
 package testing
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5/addressexchange"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5/addressexchange"
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 type fakeReceiveAddressesContext struct{}

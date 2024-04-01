@@ -1,7 +1,7 @@
 package appmessage
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // MaxBlockLocatorsPerMsg is the maximum number of block locator hashes allowed

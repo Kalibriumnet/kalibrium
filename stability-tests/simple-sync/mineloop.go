@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/kalibriumnet/go-secp256k1"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 )
 

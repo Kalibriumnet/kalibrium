@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/version"
 )
 
 const (

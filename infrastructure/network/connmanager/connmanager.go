@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/dnsseed"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 )
 
 // connectionRequest represents a user request (either through CLI or RPC) to connect to a certain node

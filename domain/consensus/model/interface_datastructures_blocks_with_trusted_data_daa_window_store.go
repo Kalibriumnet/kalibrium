@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // BlocksWithTrustedDataDAAWindowStore stores the DAA window of blocks with trusted data

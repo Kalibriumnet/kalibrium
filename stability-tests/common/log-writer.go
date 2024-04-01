@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 )
 
 // LogWriter writes to the given log with the given log level and prefix

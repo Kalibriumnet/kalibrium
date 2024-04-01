@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 )
 

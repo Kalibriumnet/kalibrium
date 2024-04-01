@@ -5,7 +5,7 @@
 package appmessage
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // MsgRequestAddresses implements the Message interface and represents a Kalibrium

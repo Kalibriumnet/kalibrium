@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 )
 

@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // These are the constants specified for maximums in individual scripts.

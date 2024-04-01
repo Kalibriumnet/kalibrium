@@ -1,6 +1,6 @@
 package lrucachehashpairtoblockghostdagdatahashpair
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 type lruKey struct {
 	blockHash externalapi.DomainHash

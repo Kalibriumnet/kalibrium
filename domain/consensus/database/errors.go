@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 )
 
 // ErrNotFound denotes that the requested item was not

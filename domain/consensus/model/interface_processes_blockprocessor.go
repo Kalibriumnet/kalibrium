@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // BlockProcessor is responsible for processing incoming blocks
 type BlockProcessor interface {

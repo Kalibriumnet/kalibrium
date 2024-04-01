@@ -6,10 +6,10 @@ package dagconfig
 
 import (
 	"github.com/kalibriumnet/go-muhash"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/blockheader"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/blockheader"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
 	"math/big"
 )
 

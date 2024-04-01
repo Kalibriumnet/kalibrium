@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 	"github.com/pkg/errors"
 )
 

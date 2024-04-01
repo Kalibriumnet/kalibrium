@@ -1,12 +1,12 @@
 package addressexchange
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 // ReceiveAddressesContext is the interface for the context needed for the ReceiveAddresses flow.

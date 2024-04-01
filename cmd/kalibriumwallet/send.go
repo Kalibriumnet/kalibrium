@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/client"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/keys"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/utils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/client"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/keys"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/utils"
 	"github.com/pkg/errors"
 )
 

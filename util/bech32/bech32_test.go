@@ -5,7 +5,7 @@
 package bech32_test
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/util/bech32"
+	"github.com/kalibriumnet/kalibrium/util/bech32"
 	"testing"
 )
 

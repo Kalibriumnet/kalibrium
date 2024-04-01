@@ -4,16 +4,16 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
 
 	"github.com/kalibriumnet/go-secp256k1"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionid"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionid"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/util"
 )
 
 func TestUTXOIndex(t *testing.T) {

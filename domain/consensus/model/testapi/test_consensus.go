@@ -3,10 +3,10 @@ package testapi
 import (
 	"io"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 )
 
 // MineJSONBlockType indicates which type of blocks MineJSON mines

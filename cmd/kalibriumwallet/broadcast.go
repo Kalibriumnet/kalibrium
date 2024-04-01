@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/client"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/client"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
 	"github.com/pkg/errors"
 )
 

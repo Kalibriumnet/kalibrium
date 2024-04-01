@@ -1,7 +1,7 @@
 package math_test
 
 import (
-	utilMath "github.com/Kalibriumnet/Kalibrium/util/math"
+	utilMath "github.com/kalibriumnet/kalibrium/util/math"
 	"math"
 	"testing"
 )

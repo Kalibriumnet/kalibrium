@@ -3,18 +3,18 @@ package consensushashing_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
 	"testing"
 
 	"github.com/kalibriumnet/go-secp256k1"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/util"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // shortened versions of SigHash types to fit in single line of test case

@@ -1,10 +1,10 @@
 package consensus
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/testapi"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/testapi"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 )
 
 func (tc *testConsensus) DatabaseContext() model.DBManager {

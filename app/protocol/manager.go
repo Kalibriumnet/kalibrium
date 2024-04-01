@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flowcontext"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/connmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flowcontext"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/connmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

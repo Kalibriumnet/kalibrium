@@ -3,12 +3,12 @@ package ghostdag2
 import (
 	"sort"
 
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 
 	"math/big"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 type ghostdagHelper struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 )
 
 func Test16IncomingConnections(t *testing.T) {

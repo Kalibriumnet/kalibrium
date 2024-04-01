@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 	"time"
 )

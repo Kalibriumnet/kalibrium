@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 )
 
 func main() {

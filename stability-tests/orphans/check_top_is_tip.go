@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 )
 

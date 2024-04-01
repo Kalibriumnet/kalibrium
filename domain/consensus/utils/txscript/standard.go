@@ -7,12 +7,12 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/util"
 )
 
 // ScriptClass is an enumeration for the list of standard types of script.

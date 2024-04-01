@@ -7,11 +7,11 @@ package txscript_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/util"
 )
 
 // This example demonstrates creating a script which pays to a Kalibrium address.

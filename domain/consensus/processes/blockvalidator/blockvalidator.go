@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/util/txmass"
+	"github.com/kalibriumnet/kalibrium/util/txmass"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 )
 
 // blockValidator exposes a set of validation classes, after which

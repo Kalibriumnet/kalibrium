@@ -1,9 +1,9 @@
 package transactionvalidator
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/testapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/testapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
 )
 
 type testTransactionValidator struct {

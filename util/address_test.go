@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util"
 )
 
 func TestAddresses(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/client"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/utils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/client"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/utils"
 )
 
 func createUnsignedTransaction(conf *createUnsignedTransactionConfig) error {

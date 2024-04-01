@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
-	miningmanagermodel "github.com/Kalibriumnet/Kalibrium/domain/miningmanager/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
+	miningmanagermodel "github.com/kalibriumnet/kalibrium/domain/miningmanager/model"
 )
 
 // MiningManager creates block templates for mining as well as maintaining

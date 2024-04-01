@@ -3,9 +3,9 @@ package utxo
 import (
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
 	"github.com/pkg/errors"
 )
 

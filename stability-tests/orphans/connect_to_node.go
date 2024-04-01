@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/standalone"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/standalone"
 )
 
 func connectToNode() *standalone.Routes {

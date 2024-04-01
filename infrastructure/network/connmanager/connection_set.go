@@ -1,7 +1,7 @@
 package connmanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 )
 
 type connectionSet map[string]*netadapter.NetConnection

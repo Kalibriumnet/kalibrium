@@ -1,18 +1,18 @@
 package blockvalidator_test
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/testapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/testapi"
 	"reflect"
 	"runtime"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/blockheader"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/blockheader"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 	"github.com/pkg/errors"
 )
 

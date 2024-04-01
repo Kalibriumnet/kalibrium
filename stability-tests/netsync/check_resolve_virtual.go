@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 	"time"
 )

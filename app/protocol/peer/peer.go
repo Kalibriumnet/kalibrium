@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
-	mathUtil "github.com/Kalibriumnet/Kalibrium/util/math"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
+	mathUtil "github.com/kalibriumnet/kalibrium/util/math"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 )
 
 // Peer holds data about a peer.

@@ -3,9 +3,9 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 	"github.com/pkg/errors"
 )
 

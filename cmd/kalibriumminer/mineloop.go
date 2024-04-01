@@ -2,18 +2,18 @@ package main
 
 import (
 	nativeerrors "errors"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/version"
 	"math/rand"
 	"sync/atomic"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumminer/templatemanager"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/pow"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumminer/templatemanager"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/pow"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
 )
 
 type balancesType struct{ available, pending uint64 }

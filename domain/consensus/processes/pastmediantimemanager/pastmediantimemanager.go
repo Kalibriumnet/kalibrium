@@ -3,10 +3,10 @@ package pastmediantimemanager
 import (
 	"sort"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/sorters"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/sorters"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

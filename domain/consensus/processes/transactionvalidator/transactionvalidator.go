@@ -1,10 +1,10 @@
 package transactionvalidator
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/util/txmass"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/util/txmass"
 )
 
 const sigCacheSize = 10_000

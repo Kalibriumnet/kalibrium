@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // ReachabilityManager maintains a structure that allows to answer
 // reachability queries in sub-linear time

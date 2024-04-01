@@ -4,12 +4,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient/grpcclient"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient/grpcclient"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/version"
 	"github.com/pkg/errors"
 )
 

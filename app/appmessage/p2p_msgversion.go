@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/version"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 )
 
 // MaxUserAgentLen is the maximum allowed length for the user agent field in a

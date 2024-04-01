@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
 	"testing"
 )
 

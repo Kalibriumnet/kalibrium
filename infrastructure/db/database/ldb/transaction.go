@@ -1,7 +1,7 @@
 package ldb
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 )

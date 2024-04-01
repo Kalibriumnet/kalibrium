@@ -1,7 +1,7 @@
 package rpccontext
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("RPCS")

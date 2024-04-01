@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // PruningStore represents a store for the current pruning state
 type PruningStore interface {

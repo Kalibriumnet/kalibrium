@@ -3,9 +3,9 @@ package rpchandlers
 import (
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc/rpccontext"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/rpc/rpccontext"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 const pauseBeforeShutDown = time.Second

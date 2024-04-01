@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/serialization"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionid"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/serialization"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionid"
 	"github.com/pkg/errors"
 )
 

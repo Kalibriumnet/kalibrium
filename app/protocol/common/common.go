@@ -1,8 +1,8 @@
 package common
 
 import (
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"time"
 
 	"github.com/pkg/errors"

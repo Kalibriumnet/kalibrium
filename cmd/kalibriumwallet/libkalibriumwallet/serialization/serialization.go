@@ -3,9 +3,9 @@ package serialization
 import (
 	"math"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet/serialization/protoserialization"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet/serialization/protoserialization"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 )

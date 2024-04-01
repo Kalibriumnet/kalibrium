@@ -7,9 +7,9 @@ package txscript
 import (
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

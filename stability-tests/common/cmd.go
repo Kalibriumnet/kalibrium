@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

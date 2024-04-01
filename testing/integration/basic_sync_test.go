@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 )
 
 func TestIntegrationBasicSync(t *testing.T) {

@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // TipsToDBTips converts a slice of hashes to DbTips

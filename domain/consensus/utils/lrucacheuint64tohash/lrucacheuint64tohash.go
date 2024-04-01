@@ -1,6 +1,6 @@
 package lrucacheuint64tohash
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // LRUCache is a least-recently-used cache from
 // uint64 to DomainHash

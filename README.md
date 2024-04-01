@@ -57,7 +57,7 @@ Join our discord server using the following link: https://discord.gg/qmmRQ9Tz
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/Kalibriumnet/Kalibrium/issues)
+The [integrated github issue tracker](https://github.com/kalibriumnet/kalibrium/issues)
 is used for this project.
 
 

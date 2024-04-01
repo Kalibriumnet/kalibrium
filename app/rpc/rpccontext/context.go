@@ -1,13 +1,13 @@
 package rpccontext
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/protocol"
-	"github.com/Kalibriumnet/Kalibrium/domain"
-	"github.com/Kalibriumnet/Kalibrium/domain/utxoindex"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/connmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/app/protocol"
+	"github.com/kalibriumnet/kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain/utxoindex"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/connmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 )
 
 // Context represents the RPC context

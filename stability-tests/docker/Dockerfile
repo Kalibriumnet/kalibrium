@@ -23,7 +23,7 @@ COPY --from=Kalibrium /app/ /app/
 COPY --from=kalibriumminer /app/ /app/
 ENV PATH="/app:${PATH}"
 
-WORKDIR /go/src/github.com/Kalibriumnet/Kalibrium/stability-tests
+WORKDIR /go/src/github.com/kalibriumnet/kalibrium/stability-tests
 
 RUN go install ./...
 

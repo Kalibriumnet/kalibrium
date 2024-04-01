@@ -2,14 +2,14 @@ package difficulty_test
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
 	"math"
 	"math/big"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 )
 
 func TestGetHashrateString(t *testing.T) {

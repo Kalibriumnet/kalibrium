@@ -3,15 +3,15 @@ package mempool
 import (
 	"sync"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	miningmanagermodel "github.com/Kalibriumnet/Kalibrium/domain/miningmanager/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	miningmanagermodel "github.com/kalibriumnet/kalibrium/domain/miningmanager/model"
 )
 
 type mempool struct {

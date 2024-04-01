@@ -1,13 +1,13 @@
 package ready
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
 	"sync/atomic"
 
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

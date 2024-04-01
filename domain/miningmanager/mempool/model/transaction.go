@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // Transaction represents a generic transaction either in the mempool's main TransactionPool or OrphanPool
 type Transaction interface {

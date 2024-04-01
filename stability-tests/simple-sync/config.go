@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
 )
 
 const (

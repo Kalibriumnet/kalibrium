@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 // routerInitializerForTest returns new RouterInitializer which simply sets

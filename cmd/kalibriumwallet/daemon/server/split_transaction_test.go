@@ -3,21 +3,21 @@ package server
 import (
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet/serialization"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet/serialization"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/keys"
-	"github.com/Kalibriumnet/Kalibrium/util/txmass"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/keys"
+	"github.com/kalibriumnet/kalibrium/util/txmass"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
 )
 
 func TestEstimateMassAfterSignatures(t *testing.T) {

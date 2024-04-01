@@ -1,7 +1,7 @@
 package panics
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 )
 
 var utilLog = logger.RegisterSubSystem("UTIL")

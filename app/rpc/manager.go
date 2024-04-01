@@ -1,17 +1,17 @@
 package rpc
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc/rpccontext"
-	"github.com/Kalibriumnet/Kalibrium/domain"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/utxoindex"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/connmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol"
+	"github.com/kalibriumnet/kalibrium/app/rpc/rpccontext"
+	"github.com/kalibriumnet/kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/utxoindex"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/connmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

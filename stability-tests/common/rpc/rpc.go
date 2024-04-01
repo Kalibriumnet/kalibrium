@@ -3,10 +3,10 @@ package rpc
 import (
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 )
 
 const defaultRPCServer = "localhost"

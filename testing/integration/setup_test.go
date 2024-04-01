@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database/ldb"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database/ldb"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 
-	"github.com/Kalibriumnet/Kalibrium/app"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/app"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 )
 
 type appHarness struct {

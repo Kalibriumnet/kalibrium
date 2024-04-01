@@ -1,10 +1,10 @@
 package finalitystore
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/lrucache"
-	"github.com/Kalibriumnet/Kalibrium/util/staging"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/lrucache"
+	"github.com/kalibriumnet/kalibrium/util/staging"
 )
 
 var bucketName = []byte("finality-points")

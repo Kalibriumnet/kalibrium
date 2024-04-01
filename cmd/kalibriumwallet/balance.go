@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/client"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/utils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/client"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/utils"
 )
 
 func balance(conf *balanceConfig) error {

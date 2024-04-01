@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 )
 
 const (

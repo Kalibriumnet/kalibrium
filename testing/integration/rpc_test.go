@@ -1,12 +1,12 @@
 package integration
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 	"runtime"
 	"testing"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient"
 )
 
 const rpcTimeout = 10 * time.Second

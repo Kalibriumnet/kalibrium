@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumctl
+WORKDIR /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumctl
 
 RUN GOOS=linux go build -a -installsuffix cgo -o kalibriumctl .
 
@@ -24,7 +24,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumctl/kalibriumctl /app/
+COPY --from=build /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumctl/kalibriumctl /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain"
 )
 
 // Domain returns the Domain object associated to the flow context.

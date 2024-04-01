@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 
 	"github.com/kalibriumnet/go-secp256k1"
 )

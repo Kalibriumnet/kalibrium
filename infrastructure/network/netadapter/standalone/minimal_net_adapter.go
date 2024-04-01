@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

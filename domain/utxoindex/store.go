@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"encoding/binary"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/database/binaryserialization"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/database/binaryserialization"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

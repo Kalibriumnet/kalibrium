@@ -1,13 +1,13 @@
 package coinbasemanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/hashset"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/hashset"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 	"github.com/pkg/errors"
 	"math"
 )

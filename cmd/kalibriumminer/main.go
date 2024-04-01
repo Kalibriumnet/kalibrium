@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util"
 
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/signal"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/signal"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 )
 
 func main() {

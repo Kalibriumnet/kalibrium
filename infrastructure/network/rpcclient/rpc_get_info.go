@@ -1,6 +1,6 @@
 package rpcclient
 
-import "github.com/Kalibriumnet/Kalibrium/app/appmessage"
+import "github.com/kalibriumnet/kalibrium/app/appmessage"
 
 // GetInfo sends an RPC request respective to the function's name and returns the RPC server's response
 func (c *RPCClient) GetInfo() (*appmessage.GetInfoResponseMessage, error) {

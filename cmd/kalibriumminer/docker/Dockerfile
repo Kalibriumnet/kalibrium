@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumminer
+WORKDIR /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumminer
 RUN GOOS=linux go build -a -installsuffix cgo -o kalibriumminer .
 
 # --- multistage docker build: stage #2: runtime image
@@ -23,7 +23,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumminer/kalibriumminer /app/
+COPY --from=build /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumminer/kalibriumminer /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

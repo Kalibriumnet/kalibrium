@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/utils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/utils"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/argon2"
 	"golang.org/x/crypto/chacha20poly1305"

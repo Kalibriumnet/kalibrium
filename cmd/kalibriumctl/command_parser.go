@@ -8,7 +8,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
 	"github.com/pkg/errors"
 )
 

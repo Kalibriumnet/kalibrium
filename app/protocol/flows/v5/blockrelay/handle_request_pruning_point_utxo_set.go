@@ -2,14 +2,14 @@ package blockrelay
 
 import (
 	"errors"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	"github.com/Kalibriumnet/Kalibrium/domain"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 // HandleRequestPruningPointUTXOSetContext is the interface for the context needed for the HandleRequestPruningPointUTXOSet flow.

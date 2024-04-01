@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 )
 
 func TestTransactionCloseErrors(t *testing.T) {

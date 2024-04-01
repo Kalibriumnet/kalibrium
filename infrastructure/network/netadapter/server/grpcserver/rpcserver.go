@@ -1,9 +1,9 @@
 package grpcserver
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 )
 
 type rpcServer struct {

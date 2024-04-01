@@ -4,16 +4,16 @@ import (
 	// we need to embed the utxoset of mainnet genesis here
 	_ "embed"
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/multiset"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
-	"github.com/Kalibriumnet/Kalibrium/util/staging"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/multiset"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/util/staging"
 	"github.com/pkg/errors"
 )
 
@@ -232,7 +232,7 @@ func (bp *blockProcessor) loadUTXODataForGenesis(stagingArea *model.StagingArea,
 	// pruning point.
 	// The actual UTXO set that fits Mainnet's genesis' UTXO commitment was removed from the codebase in order
 	// to make reduce the consensus initialization time and the compiled binary size, but can be still
-	// found here for anyone to verify: https://github.com/Kalibriumnet/Kalibrium/blob/dbf18d8052f000ba0079be9e79b2d6f5a98b74ca/domain/consensus/processes/blockprocessor/resources/utxos.gz
+	// found here for anyone to verify: https://github.com/kalibriumnet/kalibrium/blob/dbf18d8052f000ba0079be9e79b2d6f5a98b74ca/domain/consensus/processes/blockprocessor/resources/utxos.gz
 	bp.consensusStateStore.StageVirtualUTXODiff(stagingArea, utxo.NewUTXODiff())
 	bp.utxoDiffStore.Stage(stagingArea, blockHash, utxo.NewUTXODiff(), nil)
 	bp.multisetStore.Stage(stagingArea, blockHash, multiset.New())

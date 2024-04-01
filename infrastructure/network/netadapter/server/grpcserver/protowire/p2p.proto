@@ -1,7 +1,7 @@
 syntax = "proto3";
 package protowire;
 
-option go_package = "github.com/Kalibriumnet/Kalibrium/protowire";
+option go_package = "github.com/kalibriumnet/kalibrium/protowire";
 
 message RequestAddressesMessage{
   bool includeAllSubnetworks = 1;

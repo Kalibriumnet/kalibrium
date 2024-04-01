@@ -3,15 +3,15 @@ package consensusstatemanager
 import (
 	"sort"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/merkle"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/merkle"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

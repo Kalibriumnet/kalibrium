@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/standalone"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/standalone"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 )
 
 func main() {

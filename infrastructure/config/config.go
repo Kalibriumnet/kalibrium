@@ -18,12 +18,12 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/jessevdk/go-flags"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/util"
-	"github.com/Kalibriumnet/Kalibrium/util/network"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util/network"
+	"github.com/kalibriumnet/kalibrium/version"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

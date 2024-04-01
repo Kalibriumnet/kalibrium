@@ -2,9 +2,9 @@ package grpcserver
 
 import (
 	"context"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding/gzip"

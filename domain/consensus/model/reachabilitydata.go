@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // MutableReachabilityData represents a node in the reachability tree

@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/util/math"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/util/math"
 
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // DifficultyManager provides a method to resolve the

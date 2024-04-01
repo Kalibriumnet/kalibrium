@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
 	"github.com/pkg/errors"
 )
 

@@ -2,11 +2,11 @@ package util_test
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 	"math"
 	"math/big"
 
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util"
 )
 
 func ExampleAmount() {

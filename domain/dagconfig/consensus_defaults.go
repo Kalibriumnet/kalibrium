@@ -1,7 +1,7 @@
 package dagconfig
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 	"time"
 )
 

@@ -1,7 +1,7 @@
 package flowcontext
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
 )
 
 // AddressManager returns the address manager associated to the flow context.

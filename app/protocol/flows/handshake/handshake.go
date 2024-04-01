@@ -3,18 +3,18 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

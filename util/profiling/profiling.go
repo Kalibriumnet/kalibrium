@@ -2,7 +2,7 @@ package profiling
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 	"net"
 	"net/http"
 	"os"
@@ -12,7 +12,7 @@ import (
 	// Required for profiling
 	_ "net/http/pprof"
 
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 	"runtime"
 	"runtime/pprof"
 )

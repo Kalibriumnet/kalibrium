@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
 )
 
 var (

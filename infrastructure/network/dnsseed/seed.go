@@ -12,15 +12,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	pb2 "github.com/Kalibriumnet/Kalibrium/infrastructure/network/dnsseed/pb"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	pb2 "github.com/kalibriumnet/kalibrium/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 )
 
 const (

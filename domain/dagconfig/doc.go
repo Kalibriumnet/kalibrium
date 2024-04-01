@@ -27,8 +27,8 @@ variable (either directly, or hidden in a library call).
 		"fmt"
 		"log"
 
-		"github.com/Kalibriumnet/Kalibrium/util"
-		"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+		"github.com/kalibriumnet/kalibrium/util"
+		"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 	)
 
 	var testnet = flag.Bool("testnet", false, "operate on the testnet Kalibrium network")

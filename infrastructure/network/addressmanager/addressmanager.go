@@ -5,13 +5,13 @@
 package addressmanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 	"net"
 	"sync"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 	"github.com/pkg/errors"
 )
 

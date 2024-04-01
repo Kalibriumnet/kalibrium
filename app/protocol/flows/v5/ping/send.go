@@ -1,16 +1,16 @@
 package ping
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flowcontext"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flowcontext"
 	"github.com/pkg/errors"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
-	"github.com/Kalibriumnet/Kalibrium/util/random"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/util/random"
 )
 
 // SendPingsContext is the interface for the context needed for the SendPings flow.

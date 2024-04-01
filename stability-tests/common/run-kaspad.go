@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 	"os"
 	"sync/atomic"
 	"syscall"

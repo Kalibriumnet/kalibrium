@@ -1,9 +1,9 @@
 package protowire
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 	"github.com/pkg/errors"
 )
 

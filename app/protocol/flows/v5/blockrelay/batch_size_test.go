@@ -1,7 +1,7 @@
 package blockrelay
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"testing"
 )
 

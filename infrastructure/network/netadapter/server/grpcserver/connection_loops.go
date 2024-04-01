@@ -2,18 +2,18 @@ package grpcserver
 
 import (
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 	"io"
 	"os"
 	"strconv"
 	"sync"
 	"time"
 
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 func (c *gRPCConnection) connectionLoops() error {

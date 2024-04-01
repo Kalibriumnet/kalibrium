@@ -7,7 +7,7 @@ package appmessage
 import (
 	"net"
 
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 )
 
 // NetAddress defines information about a peer on the network including the time

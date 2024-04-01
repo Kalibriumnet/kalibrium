@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/kalibriumnet/go-secp256k1"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/mining"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/mining"
+	"github.com/kalibriumnet/kalibrium/util"
 	"math/rand"
 	"os"
 	"os/exec"
@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 	"github.com/pkg/errors"
 )
 

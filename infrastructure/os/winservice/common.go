@@ -1,6 +1,6 @@
 package winservice
 
-import "github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+import "github.com/kalibriumnet/kalibrium/infrastructure/config"
 
 // ServiceDescription contains information about a service, needed to administer it
 type ServiceDescription struct {

@@ -2,7 +2,7 @@ package panics
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 	"os"
 	"runtime/debug"
 	"sync/atomic"

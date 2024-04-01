@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 )

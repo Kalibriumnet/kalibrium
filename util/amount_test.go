@@ -5,11 +5,11 @@
 package util_test
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 	"math"
 	"testing"
 
-	. "github.com/Kalibriumnet/Kalibrium/util"
+	. "github.com/kalibriumnet/kalibrium/util"
 )
 
 func TestAmountCreation(t *testing.T) {

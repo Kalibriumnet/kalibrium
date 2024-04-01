@@ -9,17 +9,17 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/util"
 	"github.com/pkg/errors"
 )
 

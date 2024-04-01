@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet
+WORKDIR /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet
 RUN GOOS=linux go build -a -installsuffix cgo -o kalibriumwallet .
 
 # --- multistage docker build: stage #2: runtime image
@@ -23,7 +23,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/kalibriumwallet /app/
+COPY --from=build /go/src/github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/kalibriumwallet /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

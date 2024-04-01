@@ -1,20 +1,20 @@
 package protocol
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/common"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/ready"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/v5"
+	"github.com/kalibriumnet/kalibrium/app/protocol/common"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/ready"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/v5"
 	"sync"
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/flows/handshake"
-	peerpkg "github.com/Kalibriumnet/Kalibrium/app/protocol/peer"
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/connmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/protocol/flows/handshake"
+	peerpkg "github.com/kalibriumnet/kalibrium/app/protocol/peer"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/connmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

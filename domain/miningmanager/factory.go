@@ -1,10 +1,10 @@
 package miningmanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/domain/miningmanager/blocktemplatebuilder"
-	mempoolpkg "github.com/Kalibriumnet/Kalibrium/domain/miningmanager/mempool"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/miningmanager/blocktemplatebuilder"
+	mempoolpkg "github.com/kalibriumnet/kalibrium/domain/miningmanager/mempool"
 	"sync"
 	"time"
 )

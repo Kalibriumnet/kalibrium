@@ -3,7 +3,7 @@ package bip32
 import (
 	"encoding/binary"
 	"github.com/kalibriumnet/go-secp256k1"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet/bip32/base58"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet/bip32/base58"
 	"github.com/pkg/errors"
 )
 

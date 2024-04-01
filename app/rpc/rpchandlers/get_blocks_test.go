@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc/rpccontext"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc/rpchandlers"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/testapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/hashes"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/testutils"
-	"github.com/Kalibriumnet/Kalibrium/domain/miningmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/rpc/rpccontext"
+	"github.com/kalibriumnet/kalibrium/app/rpc/rpchandlers"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/testapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/hashes"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/testutils"
+	"github.com/kalibriumnet/kalibrium/domain/miningmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
 )
 
 type fakeDomain struct {

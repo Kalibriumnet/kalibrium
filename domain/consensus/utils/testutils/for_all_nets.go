@@ -3,8 +3,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
 )
 
 // ForAllNets runs the passed testFunc with all available networks

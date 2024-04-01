@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
 
 	"github.com/pkg/errors"
 )

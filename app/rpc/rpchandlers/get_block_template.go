@@ -1,14 +1,14 @@
 package rpchandlers
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc/rpccontext"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/txscript"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
-	"github.com/Kalibriumnet/Kalibrium/util"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/rpc/rpccontext"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/txscript"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/version"
 )
 
 // HandleGetBlockTemplate handles the respectively named RPC command

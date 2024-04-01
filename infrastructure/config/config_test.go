@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 func TestCreateDefaultConfigFile(t *testing.T) {

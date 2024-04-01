@@ -24,8 +24,8 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/Kalibriumnet/Kalibrium/Kalibrium /app/
-COPY --from=build /go/src/github.com/Kalibriumnet/Kalibrium/infrastructure/config/sample-Kalibrium.conf /app/
+COPY --from=build /go/src/github.com/kalibriumnet/kalibrium/Kalibrium /app/
+COPY --from=build /go/src/github.com/kalibriumnet/kalibrium/infrastructure/config/sample-Kalibrium.conf /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

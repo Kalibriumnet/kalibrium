@@ -1,8 +1,8 @@
 package rpcclient
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 )
 
 type rpcRouter struct {

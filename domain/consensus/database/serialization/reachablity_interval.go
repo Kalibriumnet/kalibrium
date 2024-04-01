@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
 )
 
 func reachablityIntervalToDBReachablityInterval(reachabilityInterval *model.ReachabilityInterval) *DbReachabilityInterval {

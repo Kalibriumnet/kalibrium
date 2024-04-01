@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb";
+option go_package = "github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb";
 package kalibriumwalletd;
 
 service kalibriumwalletd {

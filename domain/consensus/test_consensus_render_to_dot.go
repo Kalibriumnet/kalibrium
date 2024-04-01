@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
 )
 
 // RenderDAGToDot is a helper function for debugging tests.

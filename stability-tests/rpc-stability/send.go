@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient/grpcclient"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient/grpcclient"
 	"github.com/pkg/errors"
 )
 

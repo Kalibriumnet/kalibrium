@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database/ldb"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/execenv"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/limits"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/signal"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/winservice"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database/ldb"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/execenv"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/limits"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/signal"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/winservice"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/version"
 )
 
 const (

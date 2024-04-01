@@ -1,6 +1,6 @@
 package protowire
 
-import "github.com/Kalibriumnet/Kalibrium/app/appmessage"
+import "github.com/kalibriumnet/kalibrium/app/appmessage"
 
 func (x *KalibriumdMessage_UnexpectedPruningPoint) toAppMessage() (appmessage.Message, error) {
 	return &appmessage.MsgUnexpectedPruningPoint{}, nil

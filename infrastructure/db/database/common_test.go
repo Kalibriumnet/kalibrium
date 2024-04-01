@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database/ldb"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database/ldb"
 )
 
 type databasePrepareFunc func(t *testing.T, testName string) (db database.Database, name string, teardownFunc func())

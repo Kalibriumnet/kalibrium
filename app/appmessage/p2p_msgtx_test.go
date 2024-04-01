@@ -11,13 +11,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/constants"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/constants"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionid"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionid"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // TestTx tests the MsgTx API.

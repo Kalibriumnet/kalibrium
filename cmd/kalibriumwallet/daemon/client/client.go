@@ -2,12 +2,12 @@ package client
 
 import (
 	"context"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/server"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/server"
 	"time"
 
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
 	"google.golang.org/grpc"
 )
 

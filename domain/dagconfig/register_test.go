@@ -3,7 +3,7 @@ package dagconfig_test
 import (
 	"testing"
 
-	. "github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
+	. "github.com/kalibriumnet/kalibrium/domain/dagconfig"
 )
 
 // Define some of the required parameters for a user-registered

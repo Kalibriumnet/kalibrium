@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet/bip32"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/utils"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet/bip32"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/utils"
 	"github.com/pkg/errors"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/keys"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/keys"
 )
 
 func create(conf *createConfig) error {

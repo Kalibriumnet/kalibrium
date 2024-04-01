@@ -2,13 +2,13 @@ package netadapter
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	routerpkg "github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/router"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	routerpkg "github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server"
 )
 
 // NetConnection is a wrapper to a server connection for use by services external to NetAdapter

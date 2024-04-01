@@ -1,7 +1,7 @@
 package protocolerrors
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

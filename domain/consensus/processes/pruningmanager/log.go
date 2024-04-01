@@ -1,5 +1,5 @@
 package pruningmanager
 
-import "github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+import "github.com/kalibriumnet/kalibrium/infrastructure/logger"
 
 var log = logger.RegisterSubSystem("PRNM")

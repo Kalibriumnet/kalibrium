@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
 	"os/exec"
 	"strings"
 	"sync/atomic"
 	"syscall"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/mine"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/rpc"
-	"github.com/Kalibriumnet/Kalibrium/util"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/mine"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/rpc"
+	"github.com/kalibriumnet/kalibrium/util"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 	"github.com/pkg/errors"
 )
 

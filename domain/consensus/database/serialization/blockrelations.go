@@ -1,7 +1,7 @@
 package serialization
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model"
 )
 
 // DomainBlockRelationsToDbBlockRelations converts model.BlockRelations to DbBlockRelations

@@ -3,8 +3,8 @@ package serialization
 import (
 	"io"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/util/binaryserializer"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/util/binaryserializer"
 	"github.com/pkg/errors"
 )
 

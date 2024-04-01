@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common/mine"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common/mine"
 	"github.com/pkg/errors"
 )
 

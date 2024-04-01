@@ -1,6 +1,6 @@
 package rpcclient
 
-import "github.com/Kalibriumnet/Kalibrium/app/appmessage"
+import "github.com/kalibriumnet/kalibrium/app/appmessage"
 
 // AddPeer sends an RPC request respective to the function's name and returns the RPC server's response
 func (c *RPCClient) AddPeer(address string, isPermanent bool) error {

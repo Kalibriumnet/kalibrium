@@ -5,14 +5,14 @@ import (
 	"github.com/pkg/errors"
 	"math/big"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/blockheader"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/hashes"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/blockheader"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/hashes"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionid"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionid"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 )
 
 // DomainBlockToMsgBlock converts an externalapi.DomainBlock to MsgBlock

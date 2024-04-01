@@ -1,7 +1,7 @@
 package model
 
 import (
-	consensusexternalapi "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	consensusexternalapi "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // BlockTemplateBuilder builds block templates for miners to consume

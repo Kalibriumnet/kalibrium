@@ -1,7 +1,7 @@
 package lrucache
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // LRUCache is a least-recently-used cache for any type

@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/limits"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run Kalibrium

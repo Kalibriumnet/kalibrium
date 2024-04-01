@@ -3,11 +3,11 @@ package libkalibriumwallet
 import (
 	"encoding/hex"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionid"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/utxo"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionid"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/utxo"
 )
 
 // KalibriumwalletdUTXOsTolibkalibriumwalletUTXOs converts a  []*pb.UtxosByAddressesEntry to a []*libkalibriumwallet.UTXO

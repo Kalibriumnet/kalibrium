@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/Kalibriumnet/Kalibrium/util/bech32"
+	"github.com/kalibriumnet/kalibrium/util/bech32"
 )
 
 var (

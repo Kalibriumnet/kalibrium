@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 	"github.com/pkg/errors"
 )
 

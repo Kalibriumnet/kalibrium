@@ -7,7 +7,7 @@ package dagconfig
 import (
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 func TestNewHashFromStr(t *testing.T) {

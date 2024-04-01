@@ -1,10 +1,10 @@
 package mempoollimits
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient"
-	"github.com/Kalibriumnet/Kalibrium/stability-tests/common"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient"
+	"github.com/kalibriumnet/kalibrium/stability-tests/common"
+	"github.com/kalibriumnet/kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 	"os"
 	"testing"
 )

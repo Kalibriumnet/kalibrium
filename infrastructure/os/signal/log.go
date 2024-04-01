@@ -5,7 +5,7 @@
 package signal
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/logger"
+	"github.com/kalibriumnet/kalibrium/infrastructure/logger"
 )
 
 var kalidLog = logger.RegisterSubSystem("KALID")

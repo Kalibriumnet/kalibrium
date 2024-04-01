@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/miningmanager/mempool"
+	"github.com/kalibriumnet/kalibrium/domain/miningmanager/mempool"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol"
-	"github.com/Kalibriumnet/Kalibrium/app/rpc"
-	"github.com/Kalibriumnet/Kalibrium/domain"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus"
-	"github.com/Kalibriumnet/Kalibrium/domain/utxoindex"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/config"
-	infrastructuredatabase "github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/addressmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/connmanager"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/id"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/app/protocol"
+	"github.com/kalibriumnet/kalibrium/app/rpc"
+	"github.com/kalibriumnet/kalibrium/domain"
+	"github.com/kalibriumnet/kalibrium/domain/consensus"
+	"github.com/kalibriumnet/kalibrium/domain/utxoindex"
+	"github.com/kalibriumnet/kalibrium/infrastructure/config"
+	infrastructuredatabase "github.com/kalibriumnet/kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/addressmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/connmanager"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/id"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 )
 
 // ComponentManager is a wrapper for all the Kalibrium services

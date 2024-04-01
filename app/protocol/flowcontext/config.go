@@ -1,6 +1,6 @@
 package flowcontext
 
-import "github.com/Kalibriumnet/Kalibrium/infrastructure/config"
+import "github.com/kalibriumnet/kalibrium/infrastructure/config"
 
 // Config returns an instance of *config.Config associated to the flow context.
 func (f *FlowContext) Config() *config.Config {

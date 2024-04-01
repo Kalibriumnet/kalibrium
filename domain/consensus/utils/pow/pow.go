@@ -1,11 +1,11 @@
 package pow
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/consensushashing"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/hashes"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/serialization"
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/consensushashing"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/hashes"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/serialization"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 
 	"github.com/pkg/errors"
 	"math/big"

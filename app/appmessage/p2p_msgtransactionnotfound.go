@@ -5,7 +5,7 @@
 package appmessage
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 )
 
 // MsgTransactionNotFound defines a Kalibrium TransactionNotFound message which is sent in response to

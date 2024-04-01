@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
-	"github.com/Kalibriumnet/Kalibrium/util/txmass"
+	"github.com/kalibriumnet/kalibrium/util/txmass"
 
-	"github.com/Kalibriumnet/Kalibrium/util/profiling"
+	"github.com/kalibriumnet/kalibrium/util/profiling"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/daemon/pb"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/keys"
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/os/signal"
-	"github.com/Kalibriumnet/Kalibrium/util/panics"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/daemon/pb"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/keys"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient"
+	"github.com/kalibriumnet/kalibrium/infrastructure/os/signal"
+	"github.com/kalibriumnet/kalibrium/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

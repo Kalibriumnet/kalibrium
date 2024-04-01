@@ -1,6 +1,6 @@
 package appmessage
 
-import "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
+import "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 
 // MsgPruningPointUTXOSetChunk represents a Kalibrium PruningPointUTXOSetChunk message
 type MsgPruningPointUTXOSetChunk struct {

@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/app/appmessage"
+	"github.com/kalibriumnet/kalibrium/app/appmessage"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

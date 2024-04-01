@@ -1,20 +1,20 @@
 package blocktemplatebuilder
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/processes/coinbasemanager"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/merkle"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/transactionhelper"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensusreference"
-	"github.com/Kalibriumnet/Kalibrium/util/mstime"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/processes/coinbasemanager"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/merkle"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
+	"github.com/kalibriumnet/kalibrium/domain/consensusreference"
+	"github.com/kalibriumnet/kalibrium/util/mstime"
 	"math"
 	"sort"
 
-	"github.com/Kalibriumnet/Kalibrium/util/difficulty"
+	"github.com/kalibriumnet/kalibrium/util/difficulty"
 
-	consensusexternalapi "github.com/Kalibriumnet/Kalibrium/domain/consensus/model/externalapi"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/ruleerrors"
-	"github.com/Kalibriumnet/Kalibrium/domain/consensus/utils/subnetworks"
-	miningmanagerapi "github.com/Kalibriumnet/Kalibrium/domain/miningmanager/model"
+	consensusexternalapi "github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/ruleerrors"
+	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
+	miningmanagerapi "github.com/kalibriumnet/kalibrium/domain/miningmanager/model"
 	"github.com/pkg/errors"
 )
 
@@ -151,7 +151,7 @@ func (btb *blockTemplateBuilder) BuildBlockTemplate(
 		if err != nil {
 			// mempool.RemoveInvalidTransactions might return errors in situations that are perfectly fine in this context.
 			// TODO: Once the mempool invariants are clear, this should be converted back `return nil, err`:
-			// https://github.com/Kalibriumnet/Kalibrium/issues/1553
+			// https://github.com/kalibriumnet/kalibrium/issues/1553
 			log.Criticalf("Error from mempool.RemoveInvalidTransactions: %+v", err)
 		}
 		// We can call this recursively without worry because this should almost never happen

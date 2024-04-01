@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/Kalibriumnet/Kalibrium/version"
+	"github.com/kalibriumnet/kalibrium/version"
 	"os"
 	"time"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/netadapter/server/grpcserver/protowire"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/network/rpcclient/grpcclient"
+	"github.com/kalibriumnet/kalibrium/infrastructure/network/rpcclient/grpcclient"
 )
 
 func main() {

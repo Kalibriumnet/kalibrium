@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/prefixmanager/prefix"
+	"github.com/kalibriumnet/kalibrium/domain/prefixmanager/prefix"
 
-	"github.com/Kalibriumnet/Kalibrium/domain/dagconfig"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database/ldb"
+	"github.com/kalibriumnet/kalibrium/domain/dagconfig"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database/ldb"
 )
 
 func TestNewConsensus(t *testing.T) {

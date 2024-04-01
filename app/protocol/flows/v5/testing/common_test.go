@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kalibriumnet/Kalibrium/app/protocol/protocolerrors"
+	"github.com/kalibriumnet/kalibrium/app/protocol/protocolerrors"
 	"github.com/pkg/errors"
 )
 

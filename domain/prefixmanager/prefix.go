@@ -1,8 +1,8 @@
 package prefixmanager
 
 import (
-	"github.com/Kalibriumnet/Kalibrium/domain/prefixmanager/prefix"
-	"github.com/Kalibriumnet/Kalibrium/infrastructure/db/database"
+	"github.com/kalibriumnet/kalibrium/domain/prefixmanager/prefix"
+	"github.com/kalibriumnet/kalibrium/infrastructure/db/database"
 )
 
 var activePrefixKey = database.MakeBucket(nil).Key([]byte("active-prefix"))

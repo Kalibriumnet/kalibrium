@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/keys"
-	"github.com/Kalibriumnet/Kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/keys"
+	"github.com/kalibriumnet/kalibrium/cmd/kalibriumwallet/libkalibriumwallet"
 	"github.com/pkg/errors"
 )
 

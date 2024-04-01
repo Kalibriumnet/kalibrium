@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Kalibriumnet/Kalibrium/pb";
+option go_package = "github.com/kalibriumnet/kalibrium/pb";
 
 service PeerService {
   rpc GetPeersList(GetPeersListRequest) returns (GetPeersListResponse) {}
