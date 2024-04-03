@@ -5,7 +5,7 @@ Kalibrium
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
 
 
-Kalibrium is the reference full node Kalibrium implementation written in Go (golang).
+Kalibrium full node implementation source code and project assets, written in Golang.
 
 ## What is Kalibrium
 
