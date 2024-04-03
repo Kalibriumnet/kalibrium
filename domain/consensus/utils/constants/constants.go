@@ -16,7 +16,7 @@ const (
 	EquilPerKalibrium = 100_000_000
 
 	// MaxEquil is the maximum transaction amount allowed in equil.
-	MaxEquil = uint64(21_000_000_000 * EquilPerKalibrium)
+	MaxEquil = uint64(30_000_000_000 * EquilPerKalibrium)
 
 	// MaxTxInSequenceNum is the maximum sequence number the sequence field
 	// of a transaction input can be.
