@@ -214,26 +214,14 @@ var MainnetParams = Params{
 	RPCPort:     "16110",
 	DefaultPort: "16111",
 	DNSSeeds: []string{
-		// This DNS seeder is run by Wolfie
-		"mainnet-dnsseed.KALI.pa",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-1.kalibriumnet.org",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-2.kalibriumnet.org",
-		// This DNS seeder is run by Constantine Bytensky
-		"dnsseed.cbytensky.org",
-		// This DNS seeder is run by Georges Künzli
-		"seeder1.Kalibrium.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder2.Kalibrium.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder3.Kalibrium.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder4.Kalibrium.net",
-		// This DNS seeder is run by Tim
-		"kalibriumdns.kalibriumcalc.net",
-		// This DNS seeder is run by supertypo
-		"n-mainnet.Kalibrium.ws",
+		// This DNS seeder is run by Annie.D
+		"mainnet-dnsseed.kalibriumnet.io",
+		// This DNS seeder is run by Joe.R
+		"mainnet-dnsseed-1.Kalibrium.io",
+		// This DNS seeder is run by Daniel.T
+		"mainnet-dnsseed-2.Kalibrium.io",
+		// This DNS seeder is run by Andre.M
+		"mainnet-dnsseed-3.Kalibrium.io",
 	},
 
 	// DAG parameters
