@@ -288,9 +288,7 @@ var TestnetParams = Params{
 	RPCPort:     "16210",
 	DefaultPort: "16211",
 	DNSSeeds: []string{
-		"testnet-10-dnsseed.KALI.pa",
-		// This DNS seeder is run by Tiram
-		"seeder1-testnet.Kalibrium.net",
+		"testnet-dnsseed.Kalibrium.io",
 	},
 
 	// DAG parameters
