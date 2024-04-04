@@ -214,8 +214,6 @@ var MainnetParams = Params{
 	RPCPort:     "16110",
 	DefaultPort: "16111",
 	DNSSeeds: []string{
-		// This DNS seeder is run by Annie.D
-		"mainnet-dnsseed.kalibriumnet.io",
 		// This DNS seeder is run by Joe.R
 		"mainnet-dnsseed-1.Kalibrium.io",
 		// This DNS seeder is run by Daniel.T
