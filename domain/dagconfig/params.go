@@ -211,8 +211,8 @@ var MainnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "Kalibrium-mainnet",
 	Net:         appmessage.Mainnet,
-	RPCPort:     "16110",
-	DefaultPort: "16111",
+	RPCPort:     "19420",
+	DefaultPort: "19421",
 	DNSSeeds: []string{
 		// This DNS seeder is run by Joe.R
 		"mainnet-dnsseed-1.Kalibrium.io",
@@ -283,7 +283,7 @@ var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "Kalibrium-testnet-10",
 	Net:         appmessage.Testnet,
-	RPCPort:     "16210",
+	RPCPort:     "19510",
 	DefaultPort: "16211",
 	DNSSeeds: []string{
 		"testnet-dnsseed.Kalibrium.io",
