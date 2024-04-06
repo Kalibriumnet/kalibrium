@@ -5,12 +5,13 @@
 package dagconfig
 
 import (
+	"math/big"
+
 	"github.com/kalibriumnet/go-muhash"
 	"github.com/kalibriumnet/kalibrium/domain/consensus/model/externalapi"
 	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/blockheader"
 	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/subnetworks"
 	"github.com/kalibriumnet/kalibrium/domain/consensus/utils/transactionhelper"
-	"math/big"
 )
 
 var genesisTxOuts = []*externalapi.DomainTransactionOutput{}
@@ -21,7 +22,7 @@ var genesisTxPayload = []byte{
 	0x00, 0x00, //script version
 	0x01,                                           // Varint
 	0x00,                                           // OP-FALSE
-	0xd7, 0x95, 0xd7, 0x9e, 0xd7, 0x94, 0x20, 0xd7, // ומה די עליך ועל אחיך ייטב בשאר כספא ודהבה למעבד כרעות אלהכם תעבדון
+	0xd7, 0x95, 0xd7, 0x9e, 0xd7, 0x94, 0x20, 0xd7, // "This is it, baby. Hold me." - Sgt Johnsonת UNSC Marine Corps, Halo Combat Evolved.
 	0x93, 0xd7, 0x99, 0x20, 0xd7, 0xa2, 0xd7, 0x9c,
 	0xd7, 0x99, 0xd7, 0x9a, 0x20, 0xd7, 0x95, 0xd7,
 	0xa2, 0xd7, 0x9c, 0x20, 0xd7, 0x90, 0xd7, 0x97,
