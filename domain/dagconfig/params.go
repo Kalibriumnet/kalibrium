@@ -90,6 +90,7 @@ type Params struct {
 
 	// SubsidyGenesisReward SubsidyMergeSetRewardMultiplier, and
 	// SubsidyPastRewardMultiplier are part of the block subsidy equation.
+	// Further details: https://hashdag.medium.com/Kalibrium-launch-plan-9a63f4d754a6
 	SubsidyGenesisReward            uint64
 	PreDeflationaryPhaseBaseSubsidy uint64
 	DeflationaryPhaseBaseSubsidy    uint64
@@ -174,7 +175,7 @@ type Params struct {
 	// CoinbasePayloadScriptPublicKeyMaxLength is the maximum allowed script public key in the coinbase's payload
 	CoinbasePayloadScriptPublicKeyMaxLength uint8
 
-	// PruningProofM is the 'm' constant in the pruning proof.
+	// PruningProofM is the 'm' constant in the pruning proof. For more details see: https://github.com/kalibriumnet/research/issues/3
 	PruningProofM uint64
 
 	// DeflationaryPhaseDaaScore is the DAA score after which the monetary policy switches
